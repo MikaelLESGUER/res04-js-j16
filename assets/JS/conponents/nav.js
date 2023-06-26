@@ -1,9 +1,6 @@
 let Nav = {  
     props: {
-        links: {
-        type: Array,
-        required: true
-        }
+        props : ["links"],
     },
     template: `  
     <nav>
